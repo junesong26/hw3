@@ -63,7 +63,7 @@ function Gallery() {
           onChange={(e) => handleInputChange(e, setInputAuthor)}
           placeholder="작성자를 입력하세요"
         />
-        // type을 date로 하면
+        
         <input
           type="date"
           value={inputDate}
